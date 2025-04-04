@@ -1,0 +1,83 @@
+/* Navigation bar */
+.nav-head {
+    margin-top: 0;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.nav-head li {
+    margin-right: 20px;
+}
+
+.nav-head a {
+    display: block;
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-head a:hover {
+    color: rgb(57, 165, 228);
+}
+
+/* Main container */
+.container {
+    padding: 40px;
+    margin: 40px;
+}
+
+/* Toggle sections for Background */
+.toggle-section h2 {
+    color: black;
+    cursor: pointer;
+    margin: 1rem 0 0.5rem 0;
+    font-size: x-large;
+    transition: color 0.3s;
+}
+
+
+.toggle-section h2.open {
+    color: rgb(57, 165, 228);
+}
+
+.toggle-section h2:hover {
+    color: rgb(36, 142, 208);
+    ;
+}
+
+.toggle-content {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* Toggle sections For Projects*/
+.toggle-section-pro h2 {
+    color: black;
+    cursor: pointer;
+    margin: 1rem 0 0.5rem 0;
+    font-size: xx-large;
+    transition: color 0.3s;
+}
+
+
+.toggle-section-pro h2.open {
+    color: rgb(57, 165, 228);
+    ;
+}
+
+.toggle-section-pro h2:hover {
+    color: rgb(36, 142, 208);
+    ;
+}
+
+.toggle-content-pro {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
