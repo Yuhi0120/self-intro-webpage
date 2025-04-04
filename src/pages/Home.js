@@ -47,10 +47,10 @@ const Home = () => {
         </div>
         <div id="profile">
           <img src="myface1-1.jpg" className="profile-img" alt="My Face" />
-          <a>Yuhi Chiba</a>
-          <b>Waseda University</b>
-          <b>CS and Computer Engineering major</b>
-          <b>gmail : yuhi.142857@gmail.com</b>
+          <span>Yuhi Chiba</span>
+          <span>Waseda University</span>
+          <span>CS and Computer Engineering major</span>
+          <span>gmail : yuhi.142857@gmail.com</span>
           <div className="icon">
             <a href="https://github.com/Yuhi0120">
               <img src="github-mark.png" alt="GitHub" />
