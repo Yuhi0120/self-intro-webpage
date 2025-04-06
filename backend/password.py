@@ -8,7 +8,7 @@ CORS(app)
 def login():
     data = request.get_json()
     password = data.get('password')
-    if password == 'okmqaz678ijn':
+    if password == 'yuhiintro2025ver':
         return jsonify({'success': True}), 200
     return jsonify({'success': False, 'message': 'Incorrect password'}), 401
 
