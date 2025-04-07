@@ -22,7 +22,7 @@ const Home = () => {
           </h2>
           <h2>
             I am interested in computer science innovations, especially in the realm of artificial intelligence, and in how these advances can contribute to healthcare improvements.
-            I also enjoy exploring backend development and hardware engineering, appreciating the dynamic synergy between software and hardware systems.
+            I also enjoy exploring back-end development and hardware engineering, appreciating the dynamic synergy between software and hardware systems.
           </h2>
           <h2>
             Throughout my university experience, I have built a solid foundation in computer science and engineering,

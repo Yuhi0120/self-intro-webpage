@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Back-Pro.css';
 
+/* For Navigation Var */
 const Navbar = () => {
   return (
     <nav>
@@ -14,6 +15,7 @@ const Navbar = () => {
   );
 };
 
+/* For the toggle */
 const ToggleSection = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -31,11 +33,12 @@ const ToggleSection = ({ title, children }) => {
   );
 };
 
+/* Functon for the Personal Project section */
 const PersonalProject = () => {
   return (
     <div>
       <ToggleSection title="Personal Projects">
-        <strong>Self-introduction WebPage Development (2025 Mar 15th ~ 2025 April 1)</strong>
+        <strong>Self-introduction WebPage Development (2025 Mar - 2025 April)</strong>
         <p>
           I was working on making this webpage by implementing the skills I learned in the Web App Development class at UT Austin.
         </p>
@@ -44,6 +47,7 @@ const PersonalProject = () => {
   );
 };
 
+/* Function for Research Project section */
 const ResearchProject = () => {
   return (
     <div>

@@ -10,10 +10,11 @@ const Password = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setError(''); // Clear previous error message
+    setError(''); // Remove the previous error message
     setIsSubmitting(true);
 
     try {
+      // Used Render to manage password
       const response = await fetch('https://self-intro-webpage.onrender.com/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
