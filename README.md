@@ -1,23 +1,23 @@
 # Abstruction
 
-This project is for my self-introduction webpage
+This project is a personal self-introduction webpage
 
 # Details
 
 ## Used tools
-**React** For making this webpage\
-**Netlify** To keep the webpage online\
-**Render** To keep the login system
+**React** For creating the user interface\
+**Netlify** For deploying and hosting the front-end\
+**Render** For managing and hosting the login system (back-end)
 
 # Directory Structure
 .\
-├─ backend(Backend files related to password)\
+├─ backend(Back-end files related to password)\
 ├─ public\
-│   ├─ index.html\
-│   └─ (Images)\
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ index.html\
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ (Images)\
 |\
 ├─ src\
-│   ├─ pages(.js component files)\
-│   ├─ styles(.css files)\
-│   └─ App.js\
-└─ README.md (and etc)\
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ pages(.js component files)\
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ styles(.css files)\
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ App.js\
+└─ README.md (and etc)
