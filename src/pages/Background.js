@@ -54,11 +54,11 @@ const EducationalBackground = () => {
         <p><strong>Major:</strong> Computer Science &amp; Engineering</p>
         <p><strong>GPA: </strong>3.41 / 4.0 (So far)</p>
         <p>
-          <strong>General Education Courses:</strong> Algebra, Advanced Linear Algebra, Mathematical Analysis, Physics, Chemistory, Engineering Modeling,
+          <strong>General Education Courses:</strong> Linear Algebra, Advanced Linear Algebra, Mathematical Analysis, Physics, Chemistory, Engineering Modeling,
           Probability and Statistics, Vector Analysis
         </p>
         <p>
-          <strong>Major Courses:</strong> C, Java, Python, Java, Information Math, Algorithm,  Information Theory, Data Structure, Circuit Theory, Logical Circuit
+          <strong>Major Courses:</strong> C, Java, Python, Information Math, Algorithm,  Information Theory, Data Structure, Circuit Theory, Logical Circuit
         </p>
         <p><strong>Circle Activity:</strong> Squash, Tennis</p>
 
