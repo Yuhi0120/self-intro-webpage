@@ -9,7 +9,7 @@ This project is a personal self-introduction webpage
 **Netlify** For deploying and hosting the front-end\
 **Render** For managing and hosting the login system (back-end)
 
-# Directory Structure
+## Directory Structure
 .\
 ├─ backend(Back-end files related to password)\
 ├─ public\
