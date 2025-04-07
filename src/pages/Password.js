@@ -2,14 +2,17 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/Password.css';
 
-
 const Password = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setError(''); // Clear previous error message
+    setIsSubmitting(true);
+
     try {
       const response = await fetch('https://self-intro-webpage.onrender.com/api/login', {
         method: 'POST',
@@ -17,6 +20,9 @@ const Password = () => {
         body: JSON.stringify({ password }),
       });
       const data = await response.json();
+
+      setIsSubmitting(false);
+
       if (data.success) {
         localStorage.setItem('isAuthenticated', 'true');
         navigate('/');
@@ -25,12 +31,13 @@ const Password = () => {
       }
     } catch (err) {
       setError('An error occurred. Please try again.');
+      setIsSubmitting(false);
     }
   };
 
 
   return (
-    <div id='password-main'>
+    <div id="password-main">
       <h1>Enter Password</h1>
       <form onSubmit={handleSubmit}>
         <input
@@ -41,6 +48,9 @@ const Password = () => {
         />
         <button type="submit">Submit</button>
       </form>
+
+      {isSubmitting && <p style={{ color: 'green' }}>Please wait a moment...</p>}
+
       {error && <p style={{ color: 'red' }}>{error}</p>}
     </div>
   );

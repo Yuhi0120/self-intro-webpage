@@ -39,6 +39,7 @@ const EducationalBackground = () => {
       <h1>Educational Background</h1>
       <ToggleSection title="High School">
         <p><strong>School Name:</strong> Nishi Metropolitan High School</p>
+        <p><strong>Term:</strong> April 2019 ~ March 2022</p>
         <p>
           <strong>Club Activities:</strong> Soft tennis, Physics, Founder of Pokémon Club (which was broadcast on TV!).
         </p>
@@ -50,6 +51,7 @@ const EducationalBackground = () => {
 
       <ToggleSection title="University">
         <p><strong>School Name:</strong> Waseda University (Computer Science &amp; Engineering major)</p>
+        <p><strong>Term:</strong> April 2023 ~ March 2027</p>
         <p>
           <strong>Relevant Classes:</strong> Linear Algebra, Advanced Linear Algebra, Mathematical Analysis, Physics, Chemistry,
           English, Modeling, Statistics, Vector Analysis, C, Java, Python, Information Math, Algorithm, Data Structure
