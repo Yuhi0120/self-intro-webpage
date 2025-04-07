@@ -15,7 +15,7 @@ This project is a personal self-introduction webpage
 ├─ public\
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ index.html\
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ (Images)\
-|\
+│\
 ├─ src\
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ pages(.js component files)\
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ styles(.css files)\
