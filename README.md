@@ -11,15 +11,14 @@ This project is for my self-introduction webpage
 
 # Directory Structure
 .\
-├─ backend\
-│   └─ (Backend files related to password)\
+├─ backend(Backend files related to password)\
+ │
 ├─ public\
 │   ├─ index.html\
 │   └─ (Images)\
+|
 ├─ src\
-│   ├─ pages\
-│   │   └─ (.js component files)\
-│   ├─ styles\
-│   │   └─ (.css files)\
+│   ├─ pages(.js component files)\
+│   ├─ styles(.css files)\
 │   └─ App.js\
 └─ README.md (and etc)\
