@@ -42,7 +42,7 @@ const Home = () => {
           <span>Yuhi Chiba</span>
           <span>Waseda University</span>
           <span>CS and Computer Engineering major</span>
-          <span>gmail : yuhi.142857@gmail.com</span>
+          <span>gmail : yuhi.chiba2027@gmail.com</span>
           <div className="icon">
             <a href="https://github.com/Yuhi0120">
               <img src="github-mark.png" alt="GitHub" />
