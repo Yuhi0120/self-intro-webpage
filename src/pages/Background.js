@@ -77,9 +77,16 @@ const JobBackground = () => {
   return (
     <div>
       <h1>Job Background</h1>
-      <ToggleSection title="Tutoring Experience">
-        <p><strong>Place:</strong>Meguro Nihon University Junior High and High School Tutor (January 2024 - October 2024)</p>
-        <p><strong>Teaching Subjects:</strong> Math, Physics, Chemistory, English, Japanese</p>
+      <ToggleSection title="Backend Engineer Internship">
+        <p><strong>Place:</strong>Ollo Inc. (June 2025 - Present)</p>
+        <p><strong>Responsibilities:</strong></p>
+        <ul>
+          <li>Collaborated with my mentor and CEO to develop and improve product</li>
+          <li>Designed and implemented RESTful APIs using FastAPI</li>
+          <li>Set up and managed Docker and UV CLI based development environments</li>
+          <li>Integrated AWS services for scalable backend</li>
+        </ul>
+        <p><strong>Skills:</strong> FastAPI, Docker, AWS, UV CLI, Poetry</p>
       </ToggleSection>
     </div>
   );
@@ -98,3 +105,4 @@ const Background = () => {
 };
 
 export default Background;
+
