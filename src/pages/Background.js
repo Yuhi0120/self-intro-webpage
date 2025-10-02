@@ -52,7 +52,7 @@ const EducationalBackground = () => {
       <ToggleSection title="University">
         <p><strong>School Name:</strong> Waseda University (April 2023 - March 2027) </p>
         <p><strong>Major:</strong> Computer Science &amp; Engineering</p>
-        <p><strong>GPA: </strong>3.41 / 4.0 (So far)</p>
+        <p><strong>GPA: </strong>3.52 / 4.0 (So far)</p>
         <p>
           <strong>General Education Courses:</strong> Linear Algebra, Advanced Linear Algebra, Mathematical Analysis, Physics, Chemistory, Engineering Modeling,
           Probability and Statistics, Vector Analysis
